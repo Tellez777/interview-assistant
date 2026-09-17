@@ -1,0 +1,65 @@
+{
+  "full_name": "",
+  "headline": "",
+  "location": "",
+  "email": "",
+  "linkedin": "",
+  "github": "",
+  "english_level": "B1",
+  "summary": "",
+  "education": [
+    {
+      "institution": "",
+      "degree": "",
+      "graduation_date": "",
+      "location": ""
+    }
+  ],
+  "certifications": [],
+  "experience": [
+    {
+      "role": "",
+      "company": "",
+      "start_date": "",
+      "end_date": "Actualidad",
+      "location": "",
+      "employment_type": "",
+      "highlights": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "summary": "",
+      "technologies": [],
+      "metrics": [],
+      "url": ""
+    }
+  ],
+  "technologies": {
+    "frontend": [],
+    "backend": [],
+    "cloud": []
+  },
+  "stories": [
+    {
+      "id": "",
+      "title": "",
+      "situation": "",
+      "task": "",
+      "action": "",
+      "result": "",
+      "connects_to": [],
+      "caution": ""
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "",
+      "severity": "media",
+      "honest_bridge": "",
+      "fundamentals": ""
+    }
+  ],
+  "talking_points": []
+}

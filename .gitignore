@@ -1,0 +1,34 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+backend/*.egg-info/
+backend/*.log
+
+# Env / secrets
+.env
+backend/.env
+
+# Datos personales / info real del candidato (ver *.example.* para la
+# versión en blanco que sí se versiona)
+private/
+backend/data/profile.json
+backend/data/questions.yaml
+backend/data/answers/*.json
+!backend/data/answers/*.example.json
+
+# Datos generados / grandes
+backend/data/answers/*.faiss
+backend/data/answers/embeddings.npy
+backend/data/practice.db
+backend/data/live.db
+backend/scratch/
+*.wav
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editor / OS
+.DS_Store
+Thumbs.db

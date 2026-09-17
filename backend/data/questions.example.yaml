@@ -1,0 +1,246 @@
+# Banco de preguntas para generar el banco de respuestas (M2) y para las
+# sesiones de Practice Mode (M3).
+#
+# Esta es la version en blanco (sin datos personales) — las preguntas en
+# si son genericas y reutilizables. Copia este archivo a questions.yaml y
+# llena el campo hint con tus propias historias/proyectos.
+#
+# Campos:
+#   id       — identificador estable, se usa como nombre de archivo en data/answers/
+#   category — una de las categorias listadas en el plan
+#   question_en — la pregunta tal como la haria el entrevistador
+#   hint     — (opcional) que historia(s)/proyecto(s)/gap conviene usar; guia a generate.py
+
+- id: intro_summary
+  category: INTRODUCTION
+  question_en: Can you tell me a bit about yourself and your professional background?
+  hint: ''
+- id: intro_walk_cv
+  category: INTRODUCTION
+  question_en: Walk me through your resume.
+  hint: ''
+- id: intro_day_to_day
+  category: INTRODUCTION
+  question_en: What does a typical day look like in your current role?
+  hint: ''
+- id: intro_why_dev
+  category: INTRODUCTION
+  question_en: Why did you become a software developer?
+  hint: ''
+- id: tech_stack_main
+  category: TECH_STACK
+  question_en: What technologies have you worked with in your previous projects?
+  hint: ''
+- id: tech_stack_favorite
+  category: TECH_STACK
+  question_en: What's your favorite technology to work with, and why?
+  hint: ''
+- id: tech_stack_backend_pref
+  category: TECH_STACK
+  question_en: Do you prefer working on the frontend or the backend?
+  hint: ''
+- id: tech_stack_learn_new
+  category: TECH_STACK
+  question_en: How do you approach learning a new technology or framework quickly?
+  hint: ''
+- id: project_favorite
+  category: PROJECT
+  question_en: Tell me about a project you're particularly proud of.
+  hint: ''
+- id: project_end_to_end
+  category: PROJECT
+  question_en: Describe a project where you were responsible for the full stack, end
+    to end.
+  hint: ''
+- id: project_ai
+  category: PROJECT
+  question_en: Tell me about a project where you used artificial intelligence.
+  hint: ''
+- id: project_scope_change
+  category: PROJECT
+  question_en: Tell me about a project where the requirements changed midway through.
+  hint: ''
+- id: technical_challenge_main
+  category: TECHNICAL_CHALLENGE
+  question_en: Tell me about a difficult technical problem you faced in your previous
+    job.
+  hint: ''
+- id: technical_challenge_perf
+  category: TECHNICAL_CHALLENGE
+  question_en: Describe a time you had to improve the performance of a system.
+  hint: ''
+- id: technical_challenge_root_cause
+  category: TECHNICAL_CHALLENGE
+  question_en: Tell me about a bug that was hard to track down.
+  hint: ''
+- id: technical_challenge_deadline
+  category: TECHNICAL_CHALLENGE
+  question_en: Describe a situation where you had to solve a technical problem under
+    time pressure.
+  hint: ''
+- id: teamwork_collab
+  category: TEAMWORK
+  question_en: Tell me about a time you worked closely with a team to deliver a project.
+  hint: ''
+- id: teamwork_disagreement
+  category: TEAMWORK
+  question_en: Describe a time you disagreed with a teammate about a technical decision.
+  hint: ''
+- id: teamwork_help_others
+  category: TEAMWORK
+  question_en: Tell me about a time you helped a teammate who was stuck.
+  hint: ''
+- id: remote_work_experience
+  category: REMOTE_WORK
+  question_en: Do you have experience working remotely?
+  hint: ''
+- id: remote_work_communication
+  category: REMOTE_WORK
+  question_en: How do you stay organized and communicate with a remote team?
+  hint: ''
+- id: remote_work_timezone
+  category: REMOTE_WORK
+  question_en: Have you worked with teams in different time zones?
+  hint: ''
+- id: conflict_main
+  category: CONFLICT
+  question_en: Tell me about a conflict you had at work and how you resolved it.
+  hint: ''
+- id: conflict_pushback
+  category: CONFLICT
+  question_en: Describe a time you had to push back on a decision you disagreed with.
+  hint: ''
+- id: strengths_main
+  category: STRENGTHS
+  question_en: What would you say are your greatest strengths?
+  hint: ''
+- id: strengths_example
+  category: STRENGTHS
+  question_en: Can you give me an example that demonstrates one of your strengths?
+  hint: ''
+- id: weaknesses_main
+  category: WEAKNESSES
+  question_en: What would you say is an area you're working to improve?
+  hint: ''
+- id: weaknesses_feedback
+  category: WEAKNESSES
+  question_en: Tell me about a time you received critical feedback. How did you respond?
+  hint: ''
+- id: motivation_main
+  category: MOTIVATION
+  question_en: What motivates you to consider this position, given that you already
+    have a full-time role?
+  hint: ''
+- id: motivation_field
+  category: MOTIVATION
+  question_en: What do you enjoy most about being a developer?
+  hint: ''
+- id: why_company_main
+  category: WHY_COMPANY
+  question_en: Why do you want to work with our company specifically?
+  hint: ''
+- id: why_company_fit
+  category: WHY_COMPANY
+  question_en: What do you think you can bring to this specific role?
+  hint: ''
+- id: why_leaving_main
+  category: WHY_LEAVING
+  question_en: Why are you looking to leave your current position?
+  hint: ''
+- id: salary_expectation
+  category: SALARY
+  question_en: What are your salary expectations for this role?
+  hint: ''
+- id: salary_negotiable
+  category: SALARY
+  question_en: Is your salary expectation negotiable?
+  hint: ''
+- id: seo_crawl_index
+  category: SEO
+  question_en: Can you explain the difference between crawling and indexing?
+  hint: ''
+- id: seo_page_not_appearing
+  category: SEO
+  question_en: A page isn't showing up in Google search results. How would you troubleshoot
+    that?
+  hint: ''
+- id: seo_technical_experience
+  category: SEO
+  question_en: What technical SEO work have you done in a real project?
+  hint: ''
+- id: seo_robots_sitemap
+  category: SEO
+  question_en: What's the purpose of robots.txt and a sitemap.xml file?
+  hint: ''
+- id: seo_canonical_noindex
+  category: SEO
+  question_en: When would you use a canonical tag versus a noindex tag?
+  hint: ''
+- id: cwv_explain
+  category: CORE_WEB_VITALS
+  question_en: Can you explain LCP, INP, and CLS, and why they matter?
+  hint: ''
+- id: cwv_improve
+  category: CORE_WEB_VITALS
+  question_en: Tell me about a time you improved Core Web Vitals or page performance.
+  hint: ''
+- id: cwv_slow_site
+  category: CORE_WEB_VITALS
+  question_en: How would you approach optimizing a slow-loading website?
+  hint: ''
+- id: wordpress_experience
+  category: WORDPRESS
+  question_en: What's your experience with WordPress?
+  hint: ''
+- id: wordpress_broken_site
+  category: WORDPRESS
+  question_en: A WordPress site is broken after an update. How would you debug it?
+  hint: ''
+- id: wordpress_slow_site
+  category: WORDPRESS
+  question_en: How would you go about optimizing a slow WordPress site?
+  hint: ''
+- id: wordpress_security
+  category: WORDPRESS
+  question_en: What security measures would you check on a WordPress site?
+  hint: ''
+- id: wordpress_qa
+  category: WORDPRESS
+  question_en: What does QA on a WordPress site usually involve for you?
+  hint: ''
+- id: php_mysql_prepared_statements
+  category: PHP_MYSQL
+  question_en: What are prepared statements, and why are they important?
+  hint: ''
+- id: php_mysql_slow_query
+  category: PHP_MYSQL
+  question_en: A database query is running slowly. How would you diagnose it?
+  hint: ''
+- id: php_mysql_experience
+  category: PHP_MYSQL
+  question_en: How much recent experience do you have with PHP and MySQL?
+  hint: ''
+- id: jquery_bootstrap_experience
+  category: PHP_MYSQL
+  question_en: Have you worked with jQuery or Bootstrap?
+  hint: ''
+- id: debugging_methodology
+  category: DEBUGGING
+  question_en: Walk me through your general approach to debugging a production issue.
+  hint: ''
+- id: debugging_frontend_backend
+  category: DEBUGGING
+  question_en: How do you decide whether a bug is on the frontend or the backend?
+  hint: ''
+- id: debugging_site_down
+  category: DEBUGGING
+  question_en: A website suddenly stopped working. What's the first thing you check?
+  hint: ''
+- id: debugging_security_basics
+  category: DEBUGGING
+  question_en: Can you explain SQL injection, XSS, and CSRF in simple terms?
+  hint: ''
+- id: debugging_reproduce
+  category: DEBUGGING
+  question_en: What do you do when you can't reproduce a bug that a user reported?
+  hint: ''

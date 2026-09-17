@@ -1,0 +1,10 @@
+{
+  "id": "example_question_id",
+  "category": "CATEGORY_NAME",
+  "question_en": "The interview question, in English.",
+  "answer_en": "The generated/reviewed answer, in English (B1 level, 90-150 words).",
+  "answer_es": "Traduccion de la respuesta, en espanol.",
+  "keypoints": ["3 to 5 short bullets", "project, technologies, numbers"],
+  "sources": ["which profile.json fields were used, for auditing"],
+  "reviewed": false
+}
